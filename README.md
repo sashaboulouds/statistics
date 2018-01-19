@@ -1,5 +1,6 @@
 # statistics
-Econometrics scripts in python during Essec T2 2018 Jerome Rombouts lecture
+econometrics scripts in python during Essec T2 2018 Jerome Rombouts lecture
 
-Sources:
+useful resources:
+
 https://chrisalbon.com/python/data_wrangling/pandas_dataframe_importing_csv/
