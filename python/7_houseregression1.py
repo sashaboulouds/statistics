@@ -13,7 +13,7 @@ from math import sqrt
 
 
 ## read csv dataset
-url = 'https://raw.githubusercontent.com/sashaboulouds/statistics/master/housing.dat'
+url = 'https://raw.githubusercontent.com/sashaboulouds/statistics/master/data/housing.dat'
 raw_data = urllib.urlopen(url)
 housing_text = raw_data.read()
 df = pd.read_csv(StringIO(housing_text), sep=r'\s{1,}', engine='python')
