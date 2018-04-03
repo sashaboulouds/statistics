@@ -9,7 +9,7 @@ import matplotlib.pyplot as plt
 
 
 ## read csv dataset
-url = "https://raw.githubusercontent.com/sashaboulouds/statistics/master/costsalary.csv"
+url = "https://raw.githubusercontent.com/sashaboulouds/statistics/master/data/costsalary.csv"
 costsalary = pd.read_csv(url, sep=";", header=0)
 df = pd.DataFrame(costsalary)
 
