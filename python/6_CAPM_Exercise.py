@@ -10,7 +10,7 @@ from math import sqrt
 
 
 ## read csv dataset
-url = "https://raw.githubusercontent.com/sashaboulouds/statistics/master/CAPM_Exercise_formated.csv"
+url = "https://raw.githubusercontent.com/sashaboulouds/statistics/master/data/CAPM_Exercise_formated.csv"
 capm = pd.read_csv(url, sep=";", header=0)
 df = pd.DataFrame(capm)
 
