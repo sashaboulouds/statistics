@@ -9,7 +9,7 @@ from math import sqrt
 
 
 ## read csv dataset
-url = "https://raw.githubusercontent.com/sashaboulouds/statistics/master/salary_experience.csv"
+url = "https://raw.githubusercontent.com/sashaboulouds/statistics/master/data/salary_experience.csv"
 salary_experience = pd.read_csv(url, sep=";", header=0)
 df = pd.DataFrame(salary_experience)
 
